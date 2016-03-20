@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="CSS/Main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Grid.css">
+    <link rel="stylesheet" href="contact.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="icon"  type="image/png" href="Img/LogoKlein.png" >
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+            async defer></script>    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<nav class="navigation">
+    <img id="navPicture" src="Img/HEADER.png">
+
+    <ul id="Home" class="navText">
+        <li><a href="Home.html">About me</a></li>
+        <li><a href="#Work">Works</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div id="Contact" class="title2">
+    <img id="contactText" src="Img/CONTACT.png">
+</div>
+<div class="info">
+    <p> Joran Vanhaste</p><br>
+    <p> Student ArteveldeHogeschool Ghent</p><br>
+    <p> Specialization proDEV</p><br>
+    <p> Born in Roeselare</p><br>
+    <p> Dammestraat 102</p><br>
+    <p> Contact me: joran_van@hotmail.com</p><br></div>
+
+<script class="googlemaps" src="contact.js"></script>
+
+
+<div id="map"></div>
+<script src="contact.js"></script>
+
+
+<form id="form" name="form" method="post" action="Home.html">
+    <div class="column">
+        <label>Name </label>
+        <input class="inputform1" type="text" placeholder="Name"/><br>
+        <label>First Name </label>
+        <input class="inputform1" type="text" placeholder="First Name"/><br>
+        <label>E-mail </label>
+        <input class="inputform1" type="text" placeholder="E-mail"/><br>
+        <label>Cell number </label>
+        <input class="inputform1" type="text" placeholder="Cell number"/>
+    </div>
+    <div class="column1">
+        <label class="formText">Skype </label>
+        <input class="inputform" type="text"  placeholder="Skype" /><br>
+        <label class="formText">Twitter </label>
+        <input class="inputform" type="text"  placeholder="Twitter" /><br>
+        <label class="formText" >Subject </label>
+        <input class="inputform" type="text" placeholder="Subject" /><br>
+        <label class="formText">Message </label>
+        <textarea class="inputform" id="message" placeholder="Message"></textarea><br>
+    </div>
+    <button id="send" type="submit">SEND</button>
+    <button id="delete" type="reset">DELETE</button>
+</form>
+
+<div class="upFooter">
+    <a href="#Home">  <img id="logo" src="Img/LogoKlein.png"></a>
+
+</div>
+<footer>
+    <div class="icons">
+        <a href="https://www.facebook.com/joran.vanhaste"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://twitter.com/JoranVanhaste"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.youtube.com/channel/UCaGM34_PLOuGeH0KsRGbjuQ"><i class="fa fa-youtube-square fa-2x"></i></a>
+        <a href="https://www.instagram.com/joran_van/"><i class="fa fa-instagram fa-2x"></i></a>
+    </div>
+    <div class="links">
+        <a href="#Contact" class="link"><p>Contact</p></a>
+        <a href="Disclaimer.html" class="link"><p>Disclaimer</p></a>
+        <a href="PrivacyPolicy.html" class="link"><p>Privacy Policy</p></a>
+    </div>
+
+</footer>
+</body>
+</html>

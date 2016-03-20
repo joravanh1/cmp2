@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+   /* border: solid black;
+    border-width: 1px;*/
+    font-family: 'Avenir Next';
+
+}
+.content {
+    height: 1000px;
+}
+.content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
+
+}
+/***********HEADER***********/
+
+header {
+    background: url(../Img/HEADER.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: fixed !important;
+}
+
+nav ul li {
+    float:left;
+    text-align: center;
+    list-style: none;
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/***********BODY***********/
+
+#TitleHome{
+    width: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+#TitleHomeLink{
+    color: black;
+    text-decoration: none;
+}
+#TitleHome:hover{
+    border-color: #223445;
+    background-color: dimgrey;
+    color: white;
+}
+
+#RecentBlog{
+    margin-bottom: 3rem;
+}
+#MacFoto{
+    width: 15rem;
+}
+/***********FOOTER***********/
+
+footer{
+    height: 12rem;
+    background: #223445;
+    clear: both;
+    position: relative;
+    z-index: 10;
+}
+.fa{
+    color: darkgrey;
+    padding: 0.562rem;
+}
+.fa:hover{
+    color: aliceblue;
+
+}
+
+.link  {
+    color: darkgrey;
+    text-decoration: none;
+    text-align: center;
+
+}
+.link:hover{
+    color: aliceblue;
+}
+.upFooter{
+    height: 5rem;
+    background: dimgrey;
+    clear: both;
+    position: relative;
+    z-index: 10;
+}
+#logo{
+    width: 40px;
+    position: absolute;
+    left: 48%;
+    top: -10%;
+}
+
+
+
+/***********@-media***********/
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url("http://www.yoursite.com/fonts/Avenir_Next.otf");
+
+    /* File to be stored at your site */
+}
+
+@media(max-width: 768px ) {
+    nav ul li {
+        background: #223445;
+        list-style: none;
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        height: 42.5vh;
+    }
+}
+@media(max-width: 644px) {
+    footer{
+        height: 19.5rem;
+    }
+}
+
+
